@@ -1,0 +1,164 @@
+@import "normalize.css";
+/* ------------------------------------------------------
+Reset CSS
+-------------------------------------------------------*/
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+ul, ol{
+	margin:0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+/* ------------------------------------------------------
+Reset CSS
+-------------------------------------------------------*/
+.block-header .inner,
+.block-nav .inner,
+.block-center .inner,
+.block-footer .inner{
+	width: 1400px;
+	margin: 0 auto;  
+	padding: 20px 0;
+}
+/*.clearfix{
+	clear: left;
+}*/
+.group:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+/*--------------------------------------------------------
+BACK
+--------------------------------------------------------*/
+body {
+background-image:url(../images/acceuilprod.jpg);
+}
+/*--------------------------------------------------------
+FOOTER
+--------------------------------------------------------*/
+
+/*-------------
+Prévention
+-------------*/
+
+.block-footer .inner .danger{
+	background: #000000;
+	text-align: center;
+	padding: 5px;
+	color: #FFFFFF;
+	
+}
+
+/*-------------------
+Livraison etc...
+-------------------*/
+
+.block-footer .inner .livraison {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	margin-left: auto;
+    margin-right: auto;
+	border-top: 3px solid #505b5d;
+	width: 80%;
+	
+	
+}
+
+.block-footer .inner .livraison a{
+	color: black;
+}
+
+.block-footer .inner .livraison #txtlivraison{
+	margin-top: -50px;
+	margin-left: 8%;
+}
+
+.block-footer .inner .livraison #txtpaiment{
+	margin-top: -40px;
+	margin-left: 32%;
+}
+
+.block-footer .inner .livraison #txtretour{
+	margin-top: -40px;
+	margin-left: 55%;
+}
+
+.block-footer .inner .livraison #txtcall{
+	margin-top: -40px;
+	margin-left:82%;
+}
+
+
+.block-footer .inner .livraison a img{
+	width: 10%;
+	margin:3% 7% 6%;
+}
+
+/*--------------------
+HOME menion legale etc
+--------------------*/
+
+.block-footer .inner ul {
+	background-color: #505b5d;
+	padding: 20px;
+	display: flex;
+}
+
+.block-footer .inner ul li a{
+	color: white;
+}
+
+.block-footer .inner ul li {
+	display: inline;
+}
+ 
+.block-footer .inner ul li:nth-child(1) {
+	margin-left: 10px ;
+}
+
+.block-footer .inner ul li:nth-child(2) {
+	margin: 0 10px ;
+}
+
+.block-footer .inner ul li:nth-child(3) {
+	margin: 0 10px ;
+}
+
+.block-footer .inner ul li:nth-child(4) {
+	margin: 0 10px ;
+}
+
+.block-footer .inner ul li:nth-child(5) {
+	width: 2%;
+	margin: 0 10px ;
+}
+
+.block-footer .inner ul li:nth-child(6) {
+	width: 2%;
+	margin: 0 10px ;
+}
+
+.block-footer .inner ul li:nth-child(7) {
+	width: 2%;
+	margin: 0 10px ;
+}
+.block-footer .inner ul li:nth-child(8) {
+	width: 2%;
+	margin: 0 10px ;
+}
+.block-footer .inner ul li:nth-child(9) {
+	width: 2%;
+	margin: 0 10px ;
+}
