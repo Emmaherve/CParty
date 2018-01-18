@@ -41,10 +41,10 @@
 			<form method="post" action="index_personnalisation.php">
 				<p> 
 					<label for="taille"> Taille :</label>
-					<input type="checkbox" name="Pichet" id="pichet"/> <img src="images/pichet.png" alt="pichet">
-					<input type="checkbox" name="pinte" id="pinte"/><img src="images/pint.png" alt="pinte">
-					<input type="checkbox" name="demi" id="demi"/><img src="images/demi.png" alt="demi">
-					<input type="checkbox" name="shooter" id="shooter"/><img src="images/shootet.png" alt="demi">
+					<input type="radio" name="taille" id="pichet"/> <img src="images/pichet.png" alt="pichet">
+					<input type="radio" name="taille" id="pinte"/><img src="images/pint.png" alt="pinte">
+					<input type="radio" name="taille" id="demi"/><img src="images/demi.png" alt="demi">
+					<input type="radio" name="taille" id="shooter"/><img src="images/shootet.png" alt="demi">
 				
 				</p>
 				<p> 
@@ -61,13 +61,17 @@
 					<label for="police"> Police </label>
 					<select name="police" id="police">
 						<option value="Arial">Arial</option>
-						<option value="Arial">Arial</option>
-						<option value="Arial">Arial</option>
-						<option value="Arial">Arial</option>
-						<option value="Arial">Arial</option>
-						<option value="Arial">Arial</option>
+						<option value="Comic sans MS">Comic sans MS</option>
+						<option value="Arial">Hervetica</option>
+						<option value="Arial">Lobster</option>
+						<option value="Arial">Calibri</option>
+						<option value="Arial">Ubuntu</option>
 					</select>
-					<label for="forme"> Forme</label>
+					<label for="forme"> Forme :</label>
+					<input type="radio" name="forme_cercle" id="cercle_perso"/> <img src="images/cercle.png" alt="cercle">
+					<input type="radio" name="forme_etoile" id="etoile_perso"/><img src="images/etoile.png" alt="etoile">
+					<input type="radio" name="forme_triangle" id="triangle_perso"/><img src="images/triangle.png" alt="triangle">
+
 					
 				
 				</p>
@@ -77,9 +81,13 @@
 				<input type="button" value="Valider">
 
 			</form>
+			<div class="img_gobeletPerso">
+				<img src="images/375x375___vert-translucide-7_gobelet-reutilisable-translucide-vert.png" alt="gobelet_vert_perso">
+			</div>
+			<div class="prix_gobelet">
+				<p> Prix : 1€50</p>		
+			</div>
 	
-
-
 			
 		</div>
 		<div class="reseaux_perso">

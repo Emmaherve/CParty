@@ -8,8 +8,11 @@ Reset CSS
 	box-sizing: border-box;
 }
 
-ul, ol{
+ul, ol, a{
 	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
 }
 img {
 	max-width: 100%;
@@ -21,6 +24,10 @@ li{
 }
 a{
 	color: #000;
+}
+
+.header a{
+	text-decoration: none;
 }
 /* ------------------------------------------------------
 Reset CSS
@@ -228,3 +235,381 @@ HOME menion legale etc
 	width: 2%;
 	margin: 0 10px ;
 }
+
+
+
+
+/*		EMMA 		*/
+
+
+
+
+
+
+
+
+/*		HEADER 		*/
+
+
+
+/* ------------------------------------------------------
+		Top Header
+-------------------------------------------------------*/
+
+.inner {
+	width: 1400px;
+	margin: 0 auto; 
+	padding: 20px 0;
+	
+}
+
+.top_header:after {
+	content: '';
+	display: table;
+	clear: both;
+
+}
+
+
+
+.header {
+	background: #505d5b;
+	padding: 0px  0;
+	color: white;
+	font-size: 17px;
+
+}
+.top_header img{
+	width: 35px;
+	float: left;
+	margin: 5px;
+	
+}
+.top_header a {
+	color: white;
+}
+
+.top_header .contact > ul > li{
+	float: left;
+	position: relative;
+	margin-left: 15px;
+	
+}
+
+.top_header .contact img{
+	width: 20px;
+	float: left;
+	padding: 0px;
+	margin:0px 0 10px 10px;
+}
+
+
+.top_header .connexion{
+	margin-left: 280px;
+}
+.top_header .connexion img{
+	width: 25px;
+	display: block;
+	margin:-2px 8px 10px 10px;
+}
+
+
+.top_header .connexion> ul > li{
+	float: left;
+}
+
+.top_header .reseaux_top{
+	float: left;
+	margin-left: 70px;
+	width: 40%;
+}
+
+.top_header .reseaux_top > ul > li{
+	float: left;
+	padding: 0 5px 5px 0px;
+	display: block;
+	
+}
+.top_header .reseaux_top img{
+	margin:-5px 0 10px 10px;; 
+}
+
+.top_header .search_top{
+	float: left;
+	margin-left: 70px;
+	width: 20%;
+}
+.top_header .search_top > ul > li{
+	display: block;
+	float: left;
+	padding:0 5px;
+}
+
+.top_header .search_top .champ{
+	width: 200px;
+	
+}
+.top_header .search_top img{
+	width: 30px;
+	margin:-5px 0 10px 10px;; 
+}
+
+
+
+
+/* ------------------------------------------------------
+		Middle Header
+-------------------------------------------------------*/
+
+
+.header_middle {
+	background: #f5ece5;
+	background-image: url(../images/transparent-confetti-7.png);
+	padding: 8px  0;
+	color: #333333;
+	font-size: 17px;
+	border-bottom: 8px solid #f5aba1;
+
+}
+.header_middle:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.header_middle .logo_header img{
+	float: left;
+	margin: 25px 0px 50px 100px;
+}
+
+.header_middle .slogan h2{
+	padding-top: 40px;
+	margin-left: 420px;
+	font-weight: bold;
+	text-shadow: 3px 3px #f5d199;
+}
+
+.header_middle .slogan span{
+	color: #00ada9;
+	/*text-shadow: 3px 3px  #333333;*/
+}
+
+.header_middle .people_put_your_hands_up img{
+	text-align: right;
+	float: right;
+	margin: 50px 100px 0px 0px;
+}
+
+
+
+/* ------------------------------------------------------
+		Bottom Header - navigation
+-------------------------------------------------------*/
+
+.header_bottom .inner{
+	padding: 0;
+}
+
+.header_bottom:after {
+	content: '';
+	display: table;
+	clear: both;
+
+}
+.header_bottom .menu > li {
+	float: left;
+	display: block;
+	border-right: 1px solid rgba(18,18,18,1.00);
+	position: relative;
+}
+.header_bottom .menu > li:last-child {
+	border-right: 0;
+}
+.header_bottom .menu > li > a {
+	color: white;
+	padding: 15px 65px;
+	display: block; 
+	margin: 0px;
+}
+.header_bottom .menu > li > a:hover,
+.header_bottom .menu > li > a:focus,
+.header_bottom .menu > li > a:active{
+	background: #f5aba1;
+}
+
+.header_bottom .menu > li:nth-child(5){
+	background: #00ada9;
+}
+/* Sous navigation*/
+.header_bottom .menu ul{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 100%;
+	display: none;
+}
+.header_bottom .menu > li:hover ul{
+	display: block;
+}
+.header_bottom .menu ul >li{
+	display: block;
+	
+}
+.header_bottom .menu ul >li > a{
+	display: block;
+	background: #DDDDDD;
+	color: #333333;
+	padding: 10px;
+	white-space: nowrap;
+}
+.header_bottom .menu ul>li:not(:last-child) {
+	border-bottom: 1px solid #666;
+}
+.header_bottom .menu ul>li> a:hover,
+.header_bottom .menu ul>li> a:focus {
+	background-color: #f5aba1;
+	color: white;
+}
+
+
+
+.header_bottom .menu img{
+	width: 40px;
+	padding-right: 10px;
+	float: left;
+	
+}
+
+
+
+
+
+
+/*		HOME 		*/
+
+
+/*--------------------------------------------------------------------------------
+				CONTENTS : top (vidéo)
+---------------------------------------------------------------------------------*/
+
+
+.video_home{
+	background:#3d3d3d;
+}
+.video_home img{
+	display: block;
+	margin: auto;
+}
+
+/*--------------------------------------------------------------------------------
+				CONTENTS : middle (pubs)
+---------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		PERSONNALISATION 		*/
+
+
+/*---------------------------------------------------------------
+		En-tête
+---------------------------------------------------------------*/
+.top_personnalisation{
+	background-color: #535353;
+	width: 100%;
+	float: left;
+	display: block;
+	height: 200px;
+}
+
+.top_personnalisation h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	padding-top: 20px;
+	text-shadow: 2px 2px #3d3d3d;
+}
+
+.top_personnalisation > ul > li{
+	float:left;
+	display: block;
+	max-width: 100%;
+	width: 25%;
+	text-align: center;
+} 
+.top_personnalisation > ul > li:first-child{
+	margin-top: -80px;
+}.top_personnalisation > ul > li:nth-child(2){
+	margin-top: -100px;
+	margin-left: 50px;
+	width: 200px;
+}.top_personnalisation > ul > li:nth-child(3){
+	margin-left: 180px;
+	margin-top: -30px;
+}.top_personnalisation > ul > li:nth-child(4){
+	margin-top: -80px;
+	margin-left: 150px;
+	width: 100px;
+}
+
+/*---------------------------------------------------------------
+		Contents
+---------------------------------------------------------------*/
+
+
+.container_perso{
+	background-image: url(../images/18922568_1215050378603848_3530050231265743475_o.jpg);
+	background-attachment: fixed;
+	background-size:auto;
+}
+
+.contents_perso{
+	background-color: rgba(116,116,116,0.76);
+	width: 1400px;
+	margin: 0 auto; 
+	padding: 20px 0;
+}
+
+.hautContents >ul>li{
+	
+}
+
+/*		Réseaux 		*/
+.reseaux_perso{
+	margin-left: 420px;
+	padding-top: -60px;
+	text-align: center;
+}
+
+.reseaux_perso > ul > li {
+	float: left;
+	display: block;
+	padding: 20px;
+}
+
+.reseaux_perso h5{
+	float: left;
+	
+}
+.reseaux_perso img{
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
