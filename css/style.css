@@ -19,6 +19,9 @@ li{
 	text-decoration: none;
 	list-style: none;
 }
+a{
+	color: #000;
+}
 /* ------------------------------------------------------
 Reset CSS
 -------------------------------------------------------*/
@@ -38,11 +41,74 @@ Reset CSS
 	display: table;
 	clear: both;
 }
+/*-----------------------------------------------------------
+PRODUIT MENU CENTER
+-----------------------------------------------------------*/
+
 /*--------------------------------------------------------
 BACK
 --------------------------------------------------------*/
-body {
-background-image:url(../images/acceuilprod.jpg);
+
+body .produitmenu {
+	background-image:url(../images/acceuilprod.jpg);
+}
+
+/*--------------------------------------------------------
+Accroche
+--------------------------------------------------------*/
+.produitmenu .block-center .inner .accroche {
+	background: #efe4db;
+	text-align: center;
+	float: center;
+	max-width: 75%;
+	padding: 10px 20px 45px;
+	margin-left: auto;
+    margin-right: auto;
+	border: 2px solid #495957;
+}
+
+.produitmenu .block-center .inner section{
+	 
+}
+
+/*--------------------------------------------------------
+Choix produits /background: hsla(0,0%,0%,0.5)\
+--------------------------------------------------------*/
+
+.produitmenu .block-center .inner .nav-center ul{
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 87.5%;
+	padding: 50px 0px 45px 12.5%;
+	
+}
+
+.produitmenu .block-center .inner  .nav-center ul li{
+	padding: 10rem;
+	border: .1rem solid #495957;
+	width: 50%;
+	text-align: center;
+	color: black;
+	
+}
+
+.produitmenu .block-center .inner .nav-center ul li:nth-child(1){
+	background: #63c5b9;
+}
+
+.produitmenu .block-center .inner .nav-center ul li:nth-child(2){
+	background: #00b4ac;
+	color: #000;
+}
+
+.produitmenu .block-center .inner .nav-center ul li:nth-child(3){
+	background: #386c65;
+	color: #000;
+}
+
+.produitmenu .block-center .inner .nav-center ul li:nth-child(4){
+	background: #3da99e;
+	color: #000;
 }
 /*--------------------------------------------------------
 FOOTER
