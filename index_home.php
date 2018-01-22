@@ -8,7 +8,6 @@
 	<title>CParty : Home Page</title>
 	
 	<link rel="stylesheet" href="css/emma.css">
-	<link rel="stylesheet" href="css/style.css"
 	
 	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
 

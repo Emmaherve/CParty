@@ -35,7 +35,7 @@ ul, li, a{
 		Top Header
 -------------------------------------------------------*/
 
-.inner {
+.inner_header {
 	width: 1400px;
 	margin: 0 auto; 
 	padding: 20px 0;
@@ -183,7 +183,7 @@ ul, li, a{
 		Bottom Header - navigation
 -------------------------------------------------------*/
 
-.header_bottom .inner{
+.header_bottom .inner_header{
 	padding: 0;
 }
 
@@ -347,43 +347,156 @@ ul, li, a{
 ---------------------------------------------------------------*/
 
 
+
 .container_perso{
 	background-image: url(../images/18922568_1215050378603848_3530050231265743475_o.jpg);
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-size:auto;
+	
 }
 
 .contents_perso{
-	background-color: rgba(116,116,116,0.76);
+	background-color: rgba(255,255,235,0.62);
 	width: 1400px;
 	margin: 0 auto; 
 	padding: 20px 0;
 }
 
-.hautContents >ul>li{
-	
+.hautContents{
+	background-color: rgba(255,255,255,0.34);
 }
 
-/*		Réseaux 		*/
+.contents_perso .form_perso {
+	color: #3d3d3d;
+	margin-left: 600px;
+	padding-top: 250px;
+}
+
+.contents_perso .form_perso p{
+	padding-bottom: 40px;
+	font-size: 18px;
+}
+.contents_perso .form_perso .taille_perso{
+	float:left; 
+	position: absolute;
+}
+
+
+
+.contents_perso .form_perso > ul >li {
+	float: right;
+	margin-right: 40px;
+	margin-top: -20px;
+
+}
+.contents_perso .form_perso ul{
+	margin-left: 100px;
+	margin-right: 300px;
+	margin-top: -70px;
+	margin-bottom: 50px;
+}
+.contents_perso .form_perso .color_perso{
+	margin-right: 30px;
+}
+
+.contents_perso .form_perso .text_perso{
+	margin-left: 50px;
+}.contents_perso .form_perso .police_perso{
+	margin-left: 25px;
+}
+
+.contents_perso .form_perso .forme_perso{
+	margin-left: 100px;	
+}
+
+
+.contents_perso .contentsPersoGobEtPrix {
+	margin-top: -600px;
+	padding-bottom: 300px;
+	margin-bottom: 500px;
+}
+
+
+.contents_perso .form_perso .button_valider_form {
+
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e8173a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button_valider_form span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_valider_form span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_valider_form:hover span {
+  padding-right: 25px;
+}
+
+.button_valider_form:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+/*		Réseaux 	 */
+
+
 .reseaux_perso{
-	margin-left: 420px;
-	padding-top: -60px;
 	text-align: center;
+	margin-bottom: 100px;
 }
-
-.reseaux_perso > ul > li {
-	float: left;
-	display: block;
-	padding: 20px;
-}
-
 .reseaux_perso h5{
-	float: left;
-	
+	margin-bottom: 40px;
 }
 .reseaux_perso img{
 	width: 40px;
 }
+.reseaux_perso >ul >li{
+	margin: 20px;
+	display: inline;
+}
+
+.reseaux_perso img:hover{
+	-webkit-transition: all 200ms ease-in;
+	width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -27,7 +27,7 @@
 ------------------------------------------------------------------------------>
 
 <div class="top_header">
-	<div class="inner">
+	<div class="inner_header">
 
 	<div class="contact">
 		<ul> 
@@ -78,7 +78,7 @@
 
 
 <div class="header_middle">
-<div class="inner">
+<div class="inner_header">
 	
 	<div class="logo_header">
 		<img class="logo_headerMiddle" src="images/logo.png">
@@ -106,7 +106,7 @@
 
 
 <div class="header_bottom">
-	<div class="inner">
+	<div class="inner_header">
 		<ul class="menu group">
 				<li><a href="#"><img src="images/home.png">HOME</a></li>
 				<li><a href="#">Produits personnalisables</a>

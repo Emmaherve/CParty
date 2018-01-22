@@ -7,14 +7,13 @@
 	
 	
 	<link rel="stylesheet" href="css/emma.css">
-	<link rel="stylesheet" href="css/style.css">
 	
 	
 </head>
 
 <body>
 
-	<?php include('parts/header.php');?>
+	<?php include('parts/header.php'); ?>
 	
 <!-------------------------------------------------------------------
 		TOP
@@ -38,27 +37,29 @@
 -------------------------------------------------------------------->
 	<div class="contents_perso">
 		<div class="hautContents">
-			<form method="post" action="index_personnalisation.php">
+			<form method="post" class="form_perso" action="index_personnalisation.php">
 				<p> 
-					<label for="taille"> Taille :</label>
-					<input type="radio" name="taille" id="pichet"/> <img src="images/pichet.png" alt="pichet">
-					<input type="radio" name="taille" id="pinte"/><img src="images/pint.png" alt="pinte">
-					<input type="radio" name="taille" id="demi"/><img src="images/demi.png" alt="demi">
-					<input type="radio" name="taille" id="shooter"/><img src="images/shootet.png" alt="demi">
+					<label for="taille" class="taille_perso"> Taille :</label>
+					<ul>
+					<li><input type="radio" name="taille" id="pichet"/> <img src="images/pichet.png" alt="pichet"></li>
+					<li><input type="radio" name="taille" id="pinte"/><img src="images/pint.png" alt="pinte"></li>
+					<li><input type="radio" name="taille" id="demi"/><img src="images/demi.png" alt="demi"></li>
+					<li><input type="radio" name="taille" id="shooter"/><img src="images/shootet.png" alt="demi"></li>
+					</ul>	
 				
 				</p>
 				<p> 
-					<label for="couleur"> Couleur :</label>
+					<label for="couleur" class="color_perso"> Couleur :</label>
 					<input type="color"/>
 					
 				</p>
 				<p> 
-					<label for="logo"> Logo :</label>
+					<label for="logo" class="logo_personnalisable"> Logo :</label>
 					
-					<label for="text">Taper votre texte </label>
+					<label for="text" class="text_perso">Taper votre texte </label>
 					<input type="text"/>
 					
-					<label for="police"> Police </label>
+					<label for="police" class="police_perso"> Police </label>
 					<select name="police" id="police">
 						<option value="Arial">Arial</option>
 						<option value="Comic sans MS">Comic sans MS</option>
@@ -67,27 +68,32 @@
 						<option value="Arial">Calibri</option>
 						<option value="Arial">Ubuntu</option>
 					</select>
-					<label for="forme"> Forme :</label>
-					<input type="radio" name="forme_cercle" id="cercle_perso"/> <img src="images/cercle.png" alt="cercle">
-					<input type="radio" name="forme_etoile" id="etoile_perso"/><img src="images/etoile.png" alt="etoile">
-					<input type="radio" name="forme_triangle" id="triangle_perso"/><img src="images/triangle.png" alt="triangle">
+					<p><label for="forme" class="forme_perso"> Forme :</label>
+						<ul>
+					<li><input type="radio" name="forme_cercle" class="cercle_perso"/> <img src="images/cercle.png" alt="cercle" style="width: 40px"></li>
+					<li><input type="radio" name="forme_etoile" class="etoile_perso"/><img src="images/etoile.png" alt="etoile" style="width: 40px"></li>
+					<li><input type="radio" name="forme_triangle" class="triangle_perso"/><img src="images/triangle.png" alt="triangle" style="width: 40px"></li></p>
 
-					
+						</ul>
 				
 				</p>
-				<p> <label for="importer"> Importer :</label></p>
+				<p> <label for="importer"> Importer :</label>
+					<input type="file" name="avatar" id="avatar" accept="image/jpg" >
+				</p>
 				
 				
-				<input type="button" value="Valider">
+				<button class="button_valider_form"> <span> Valider </span></button>
 
 			</form>
-			<div class="img_gobeletPerso">
-				<img src="images/375x375___vert-translucide-7_gobelet-reutilisable-translucide-vert.png" alt="gobelet_vert_perso">
+			
+			<div class="contentsPersoGobEtPrix">
+				<div class="img_gobeletPerso">
+					<img src="images/375x375___vert-translucide-7_gobelet-reutilisable-translucide-vert.png" alt="gobelet_vert_perso">
+				</div>
+				<div class="prix_gobelet">
+					<span> Prix : 1€50</span>		
+				</div>
 			</div>
-			<div class="prix_gobelet">
-				<p> Prix : 1€50</p>		
-			</div>
-	
 			
 		</div>
 		<div class="reseaux_perso">
@@ -100,7 +106,13 @@
 			</ul>
 		</div>
 	</div>
-	
+
+
+
+
+<!--		FOOTER 			-->	
+
+<?php include('parts/footer.php');?>
 	
 </div>	
 	
@@ -108,8 +120,7 @@
 	
 	
 	
-<!--		FOOTER 			-->	
-	<?php include('parts/footer.php');?>
+
 	
 	
 	
