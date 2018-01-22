@@ -21,6 +21,7 @@ ul, li, a{
 	padding:0;
 	text-decoration: none;
 	list-style: none;
+	color: white;
 }
 
 .header a{
@@ -520,7 +521,11 @@ ul, li, a{
 
 
 
+/*		PANIER 		*/
 
+.panier{
+	background-image: url()
+}
 
 
 
