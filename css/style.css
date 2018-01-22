@@ -19,8 +19,8 @@ li{
 	text-decoration: none;
 	list-style: none;
 }
-a{
-	color: #000;
+a:link{
+	color: #000000;
 }
 /* ------------------------------------------------------
 Reset CSS
@@ -52,7 +52,21 @@ BACK
 body .produitmenu {
 	background-image:url(../images/acceuilprod.jpg);
 }
+.produitmenu .block-center .inner {
+	background-color: hsla(0,0%,0%,0.45);	
+	width: 90%;
+	float: center;
+	display: block;
+	height: 90%;
+}
 
+/*--------------------------------------------------------
+Arbo
+--------------------------------------------------------*/
+.produitmenu .block-center .inner .arbo {
+	float: left;
+	color: white;
+}
 /*--------------------------------------------------------
 Accroche
 --------------------------------------------------------*/
@@ -64,15 +78,14 @@ Accroche
 	padding: 10px 20px 45px;
 	margin-left: auto;
     margin-right: auto;
+	margin-top: 50px;	 
 	border: 2px solid #495957;
 }
 
-.produitmenu .block-center .inner section{
-	 
-}
+
 
 /*--------------------------------------------------------
-Choix produits /background: hsla(0,0%,0%,0.5)\
+Choix produits
 --------------------------------------------------------*/
 
 .produitmenu .block-center .inner .nav-center ul{
@@ -98,30 +111,120 @@ Choix produits /background: hsla(0,0%,0%,0.5)\
 
 .produitmenu .block-center .inner .nav-center ul li:nth-child(2){
 	background: #00b4ac;
-	color: #000;
 }
 
 .produitmenu .block-center .inner .nav-center ul li:nth-child(3){
 	background: #386c65;
-	color: #000;
 }
 
 .produitmenu .block-center .inner .nav-center ul li:nth-child(4){
 	background: #3da99e;
-	color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------
+CHOIX PRODUITS CENTER
+----------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------
+BACK
+--------------------------------------------------------*/
+
+body .choixproduit {
+	background:url(../images/choixprod.jpg) no-repeat;
+	background-size: cover;
+	
+}
+
+
+.choixproduit .block-center .inner {
+	background-color: hsla(0,0%,0%,0.45);	
+	width: 90%;
+	float: center;
+	display: block;
+	height: 90%;
+}
+
+/*--------------------------------------------------------
+Arbo
+--------------------------------------------------------*/
+.choixproduit .block-center .inner .arbo {
+	float: left;
+	color: white;
+}
+
+/*--------------------------------------------------------
+Accroche
+--------------------------------------------------------*/
+.choixproduit .block-center .inner .produit_choix {
+	background: hsla(0,0%,1000%,0.85);
+	text-align: center;
+	float: center;
+	max-width: 85%;
+	padding: 10px 20px 45px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+}
+.choixproduit .block-center .inner .produit_choix .image_choice {
+	float: left;
+}
+.choixproduit .block-center .inner .produit_choix .name_choice {
+	float: left;
+}
+.choixproduit .block-center .inner .produit_choix .desc_choice {
+	float: left;
+}
+.choixproduit .block-center .inner .produit_choix .ref_choice {
+	float: left;
+}
+.choixproduit .block-center .inner .produit_choix .moypayment_choice {
+	float: left;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------
 FOOTER
 --------------------------------------------------------*/
+.block-footer .inner{
+	background-color: hsla(0,0%,100%,0.45);	
+	width: 90%;
+	float: center;
+	display: block;
+	height: 100%;
+}
 
 /*-------------
 Prévention
 -------------*/
 
 .block-footer .inner .danger{
-	background: #000000;
+	background: #535353;
 	text-align: center;
 	padding: 5px;
+	margin-top: 0px;
 	color: #FFFFFF;
 	
 }

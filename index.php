@@ -18,7 +18,9 @@
 			
 			<div class="block-center">
 				<div class="inner">
-				
+					
+					<div class="arbo"> Home > Produits </div>
+					
 					<section class="accroche" >
 							<h1 class="title">
 							Produits
