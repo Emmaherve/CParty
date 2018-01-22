@@ -178,9 +178,9 @@ Arbo
 }
 
 /*--------------------------------------------------------
-Accroche
+Presentation
 --------------------------------------------------------*/
-.choixproduit .block-center .inner .produit_choix {
+.choixproduit .block-center .inner ul  {
 	background: hsla(0,0%,1000%,0.85);
 	text-align: center;
 	float: center;
@@ -190,23 +190,50 @@ Accroche
     margin-right: auto;
 	margin-top: 50px;
 }
-.choixproduit .block-center .inner .produit_choix .image_choice {
+.choixproduit .block-center .inner  ul li:nth-child(1) {
 	float: left;
 }
-.choixproduit .block-center .inner .produit_choix .name_choice {
-	float: left;
+.choixproduit .block-center .inner  ul li:nth-child(2) {
+	display: flex;
 }
-.choixproduit .block-center .inner .produit_choix .desc_choice {
-	float: left;
+.choixproduit .block-center .inner  ul li:nth-child(3) {
+	display: flex;
 }
-.choixproduit .block-center .inner .produit_choix .ref_choice {
-	float: left;
-}
-.choixproduit .block-center .inner .produit_choix .moypayment_choice {
-	float: left;
+.choixproduit .block-center .inner  ul li:nth-child(4) {
+	display: flex;
 	
 }
+.choixproduit .block-center .inner  ul li:nth-child(5) {
+	display: flex;
+	width: 25%;
+	height: 25%;
+	
+}
+.choixproduit .block-center .inner  ul li:nth-child(6) {
+	display: flex;	
+	background: #FFFFFF;
+	border: .1rem solid #495957;
+}
+.choixproduit .block-center .inner  ul li:nth-child(7) {
+	background: green;
+	padding: 5rem;
+	border: .1rem solid white;
 
+}
+.choixproduit .block-center .inner  ul li:nth-child(8) {
+	display: flex;
+	width:25%;
+	height: 25%;
+	background: #FFFFFF;
+	border: .1rem solid #495957;
+	
+}
+.choixproduit .block-center .inner  ul li:nth-child(9) {
+	display: flex;
+	width: 10%;
+	height: 10%;
+	
+}
 
 
 
@@ -334,7 +361,7 @@ HOME menion legale etc
 
 .block-footer .inner ul li:nth-child(7) {
 	width: 2%;
-	margin: 0 10px ;
+	margin: 0 10px ;	
 }
 .block-footer .inner ul li:nth-child(8) {
 	width: 2%;
