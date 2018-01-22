@@ -363,6 +363,9 @@ ul, li, a{
 	padding: 20px 0;
 }
 
+.contents_perso label{
+	font-weight: bold;
+}
 .hautContents{
 	background-color: rgba(255,255,255,0.34);
 }
@@ -414,15 +417,20 @@ ul, li, a{
 .contents_perso .contentsPersoGobEtPrix {
 	margin-top: -600px;
 	padding-bottom: 300px;
-	margin-bottom: 500px;
+
 }
 
+.contentsPersoGobEtPrix .prix_gobelet{
+	margin-left: 140px;
+	font-size: 22px;
+	font-weight: bold;
+}
 
 .contents_perso .form_perso .button_valider_form {
 
   display: inline-block;
   border-radius: 4px;
-  background-color: #e8173a;
+  background-color: #F18A7C;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -460,9 +468,31 @@ ul, li, a{
 }
 
 
+.infoProduitPerso .btn-block{
+	background-color: white;
+	color: black;
+}
+.infoProduitPerso .btn-block h4{
+	float: left;
+	margin-left: 20px;
+	padding-top: 5px;
+	
+}
+.infoProduitPerso  .img_infosProduit {
+	float: left;
+}
 
+.infoProduitPerso img{
+	width: 40px;
+}
 
-
+.infosAboutProduit p,h5{
+	padding: 40px 0px 0px 40px;
+}
+.infosAboutProduit h5, p{
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
 /*		Réseaux 	 */
 
 
