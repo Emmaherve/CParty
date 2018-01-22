@@ -7,6 +7,7 @@
 	
 	
 	<link rel="stylesheet" href="css/emma.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	
 	
 </head>
@@ -94,6 +95,20 @@
 					<span> Prix : 1€50</span>		
 				</div>
 			</div>
+	
+			<div class="infoProduitPerso">
+			<button class="btn btn-primary btn-lg btn-block"><img src="images/61112.png" alt="plus d'infos" class="img_infosProduit"><h4>Informations</h4></button>
+			<div id="infosAboutProduit" >
+				<h5> Composition </h5> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eleifend, sem a luctus pretium, ligula nulla tempus ipsum, vel mollis mauris metus bibendum lacus. Integer non pretium felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+				<h5> Délai de livraison </h5><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+			</div>
+		</div>	
+						<script>
+							var flip = 0;
+							$( "button" ).click(function() {
+							  $( "#infosAboutProduit" ).toggle( flip++ % 2 === 0 );
+							});
+						</script>
 			
 		</div>
 		<div class="reseaux_perso">
@@ -105,8 +120,10 @@
 				<li><a href="#"><img src="images/Twitter-icon.png" alt="twitter"></a></li>
 			</ul>
 		</div>
-	</div>
 
+	
+
+	</div>
 
 
 
