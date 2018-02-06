@@ -386,11 +386,24 @@ ul, li, a{
 	position: absolute;
 }
 
+.contents_perso ul:nth-child(2) img{
+	width: 40px;
+}.contents_perso li:nth-child(3) img{
+	width: 60px;
+}.contents_perso li:nth-child(1) img{
+	width: 60px;
+}.contents_perso li:nth-child(4) img{
+	width: 40px;
+}
 
+.glassSize img{
+	width: 40px;
+	float: left; 
+}
 
 .contents_perso .form_perso > ul >li {
 	float: right;
-	margin-right: 40px;
+	margin-right: 30px;
 	margin-top: -20px;
 
 }
@@ -485,6 +498,8 @@ ul, li, a{
 
 .infoProduitPerso img{
 	width: 40px;
+	float: left;
+	
 }
 
 .infosAboutProduit p,h5{

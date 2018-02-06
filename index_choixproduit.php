@@ -3,7 +3,7 @@
 	<head>
 	
 		<meta charset="utf-8">
-		<title>Document sans nom</title>
+		<title>Produits</title>
 		
 		<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
