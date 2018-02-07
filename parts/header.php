@@ -38,8 +38,8 @@
 	</div>
 	<div class="connexion"> 
 	  <ul>
-		<li><a href="#"><img src="images/user_blanc.png"></a></li>
-		<li><a href="#">Connexion</a></li>	
+		<li><a href="connexion.php"><img src="images/user_blanc.png"></a></li>
+		<li><a href="connexion.php">Connexion</a></li>	
 	</ul>
 	</div>
 	

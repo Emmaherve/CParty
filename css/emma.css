@@ -27,6 +27,9 @@ ul, li, a{
 .header a{
 	text-decoration: none;
 }
+body{
+    background: #F5ECE5;
+}
 
 /*		HEADER 		*/
 
@@ -386,13 +389,13 @@ ul, li, a{
 	position: absolute;
 }
 
-.contents_perso ul:nth-child(2) img{
+.contents_perso .form_perso:nth-child(2) img{
 	width: 40px;
-}.contents_perso li:nth-child(3) img{
+}.contents_perso .form_perso li:nth-child(3) img{
 	width: 60px;
-}.contents_perso li:nth-child(1) img{
+}.contents_perso .form_persoli:nth-child(1) img{
 	width: 60px;
-}.contents_perso li:nth-child(4) img{
+}.contents_perso .form_persoli:nth-child(4) img{
 	width: 40px;
 }
 
@@ -533,6 +536,10 @@ ul, li, a{
 }
 
 
+.forme img{
+	float: left;
+	padding-bottom: 60px;
+}
 
 
 
@@ -545,15 +552,126 @@ ul, li, a{
 
 
 
+/*		CONNEXION 		*/
 
 
 
+#container_connexion{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+/* Bordered form */
+#container_connexion form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container_connexion h1{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+#container_connexion input[type=text], #container_connexion input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#container_connexion input[type=submit] {
+    background-color: #00B3AC;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#container_connexion input[type=submit]:hover {
+    background-color: white;
+    color: #535353;
+    border: 2px solid #F5B1A1;
+}
+
+
+.lienInscription{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+.lienInscription a{
+	color: #F5ABA1;
+	font-weight: bold;
+	font-size: 20px;
+}
 
 
 
+/*	Inscription  */
 
 
+.formIscription form {
+	text-align:center;
+}
 
 
+.formIscription fieldset{
+	
+	margin-top: 80px;
+	width:100%;
+    padding: 30px;
+    border: 1px solid #535353;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.formIscription h1{
+	color: #e40750;
+	text-align: center;
+	font-size: 50px;
+	margin-left: 60px;
+	font-family: 'Raleway Bold';
+}
+
+.formIscription .titleInscription{
+margin-top: 40px;
+	display: inline;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color:grey;
+	
+	
+	
+}
+
+.formIscription .dejaINscrit{
+	text-align: center;
+	padding-top: 40px;
+	margin-left: 80px;
+}
+
+.formIscription .dejaINscrit p{
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+}
+.formIscription .dejaINscrit a {
+	text-decoration: none;
+	color: #00B3AC;
+	background-color: white;
+	padding: 6px;
+	box-shadow: 10px 10px 20px 2px black;
+	
+}
 
 

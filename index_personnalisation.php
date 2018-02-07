@@ -111,7 +111,7 @@
 			<ul>
 				<li><h5>Retrouvez nous sur : </h5></li>
 				<li><a href="#"><img src="images/facebook-512.png" alt="fb"></a></li>
-				<li><a href="#"><img src="images/instagram_PNG10.png" alt="insta"></a></li>
+				<li><a href="#"><img src="images/instagram_PNG10.png"alt="insta"></a></li>
 				<li><a href="#"><img src="images/Logo-Snapchat.png" alt="snap"></a></li>
 				<li><a href="#"><img src="images/Twitter-icon.png" alt="twitter"></a></li>
 			</ul>

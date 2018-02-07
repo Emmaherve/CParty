@@ -58,7 +58,7 @@ $(function(){
 	});
 	
 	$("#triangle_perso").click(function(){
-		$("#imgForme").attr('src','images/triangle.png').css('width','50px');
+		$("#imgForme").attr('src','images/triangle.png').css('width','50px').addClass('forme');
 	});
 
 });
