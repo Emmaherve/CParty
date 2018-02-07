@@ -24,19 +24,19 @@ $(function(){
 $(function(){
 	//Changement de l'image quand click sur pichet
 	$("#pichet").click(function(){
-		$("#imgGobPerso").attr('src','images/pichetBoisson.png').css('width','470px').css('padding-left','150px').css('padding-bottom','40px');
+		$("#imgGobPerso").attr('src','images/pichetGlassPerso.png').addClass('Cssforme');
 	});
 	//Changement de l'image quand click sur shooter
 	$("#shooter").click(function(){
-	$("#imgGobPerso").attr('src','images/shoot.png').css('width','350px').css('padding-left','30px').css('padding-bottom','40px');
+	$("#imgGobPerso").attr('src','images/shooter3.png').addClass('Cssforme');
 	});	
 	//Changement de l'image quand click sur gobelet
 	$("#gobelet").click(function(){
-	$("#imgGobPerso").attr('src','images/gobletperso.png').css('width','500px').css('padding-right','120px').css('padding-bottom','40px');;
+	$("#imgGobPerso").attr('src','images/gobletGlassP.png').addClass('Cssforme');
 	});		
 	//Changement de l'image quand click sur pinte
 	$("#pinte").click(function(){
-	$("#imgGobPerso").attr('src','images/pinte.png').css('width','370px').css('padding-left','150px').css('padding-bottom','40px');	
+	$("#imgGobPerso").attr('src','images/pinteGlass.png').addClass('Cssforme');
 	});
 	
 	

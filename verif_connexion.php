@@ -9,23 +9,25 @@
 <?php 
 	
 	
-	
-	
-	
-session_start();
-  
-include('connexionBdd.php');
-  
-if(($_SESSION["email"] == "") or($_SESSION['mot_de_passe'] == "")) {
-    echo "veuillez saisir un email et un mot de passe";
+	session_start();
+$_SESSION["username"]=$_POST["username"];
+$_SESSION["password"]=$_POST["password"];
+ 
+/*try {include('connexionBdd.php');}
+catch (Exception $e) {die("L'accès à la base de donnée est impossible.");}*/
+ include('connexionBdd.php');
+if (empty($_SESSION["username"]) or empty($_SESSION['password'])) {
+    echo "veuillez saisir un login et un mot de passe";
 }
 else {
-    $st = $bdd->query("SELECT COUNT(*) FROM client WHERE emailClient='".$_SESSION["email"]."' AND mdpClient='".$_SESSION["mot_de_passe"]."'")->fetch();
-    if ($st['COUNT(*)'] == 1)
+    $connexion = query("SELECT COUNT(*) FROM client WHERE emailClient='".$_SESSION["username"]."' AND mdpClient='".$_SESSION["password"]."'")->fetch();
+    if ($connexion['COUNT(*)'] == 1)
         header("Location: index_home.php");
 }
-	
-	
+/* echo "<script type='text/javascript'>document.location.replace('index_home.php');</script>";*/
+
+  
+
 	
 ?>	
 </body>
