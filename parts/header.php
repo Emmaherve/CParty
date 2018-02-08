@@ -38,8 +38,8 @@
 	</div>
 	<div class="connexion"> 
 	  <ul>
-		<li><a href="#"><img src="images/user_blanc.png"></a></li>
-		<li><a href="#">Connexion</a></li>	
+		<li><a href="connexion.php"><img src="images/user_blanc.png"></a></li>
+		<li><a href="connexion.php">Connexion</a></li>	
 	</ul>
 	</div>
 	
@@ -81,7 +81,7 @@
 <div class="inner_header">
 	
 	<div class="logo_header">
-		<img class="logo_headerMiddle" src="images/logo.png">
+		<a href="index_home.php"><img class="logo_headerMiddle" src="images/logo.png"></a>
 	</div>
 	<div class="slogan">
 		<h2>Avec<span> CParty</span>, la fête n'est jamais finie!</h2>
@@ -108,18 +108,18 @@
 <div class="header_bottom">
 	<div class="inner_header">
 		<ul class="menu group">
-				<li><a href="#"><img src="images/home.png">HOME</a></li>
-				<li><a href="#">Produits personnalisables</a>
-					<ul>
+				<li><a href="index_home.php"><img src="images/home.png">HOME</a></li>
+				<li><a href="index_personnalisation.php">Produits personnalisables</a>
+					<ul style="display: none">
 						<li><a href="#">Gobelets</a></li>
 						<li><a href="#">Bouteille Coca-cola</a></li>
 						<li><a href="#">Bouteille Desperados</a></li>
 					</ul>
 				
 				</li>
-				<li><a href="#">Produits</a>
+				<li><a href="index.php">Produits</a>
 					<ul>
-						<li><a href="#">Apéros et boissons</a></li>
+						<li><a href="index_aperos.php" class="apero">Apéros et boissons</a></li>
 						<li><a href="#">Décorations</a></li>
 						<li><a href="#">Accessoires</a></li>
 						<li><a href="#">Tables</a></li>
@@ -127,7 +127,7 @@
 				</li>
 				<li><a href="#">Sons et lumières</a>
 				<li><a href="#" class="active_blog">Blog</a>
-				<li><a href="#"><img src="images/panier_blanc.png">Panier</a>
+				<li><a href="index_panier.php"><img src="images/panier_blanc.png">Panier</a>
 			</ul>
 	</div>
 </div>

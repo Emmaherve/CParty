@@ -63,7 +63,7 @@ BACK
 --------------------------------------------------------*/
 
 body .produitmenu {
-	background-image:url(../images/acceuilprod.jpg);
+	background-image:url(../images/acceuilprod.jpg) no-repeat;
 }
 .produitmenu .block-center .inner {
 	background-color: hsla(0,0%,0%,0.45);	
@@ -257,12 +257,15 @@ Presentation
 
 .choixproduit .block-center .inner .produit_choix .name_choice{
 	display: flex;
+	margin-left: 5%;
 }
 .choixproduit .block-center .inner .produit_choix .desc_choice {
 	display: flex;
+	margin-left: 5%;
 }
 .choixproduit .block-center .inner .produit_choix .ref_choice {
-	display: flex;	
+	display: flex;
+	margin-left: 5%;
 }
 
 .choixproduit .block-center .inner .produit_choix .moypayment_choice {
@@ -284,6 +287,7 @@ Presentation
 .choixproduit .block-center .inner .produit_choix .price_choice {
 	float: left;
 	background: #FFFFFF;
+	color: #00aeaa;
 	 box-shadow: 8px 8px 15px #aaa; 
 	padding: 10px;
 	width: 150px;
@@ -297,7 +301,7 @@ Presentation
 	 box-shadow: 8px 8px 15px #aaa; 
 	width: 50px;
     height: 50px;
-	margin-left: 15%;
+	margin-left: 12%;
 	
 }
 /*choixproduit .block-center .inner .produit_choix .info_choice {
@@ -318,7 +322,7 @@ Presentation
 	padding-top: 5px;
 	
 }
-.infoProduit  .img_infosProduit {
+.infoProduit  .img_infos {
 	float: left;
 }
 
@@ -365,7 +369,7 @@ body .aperomenu {
 	background-color: hsla(0,0%,0%,0.45);	
 	width: 90%;
 	float: center;
-	display: block;
+	display: block; 
 	height: 90%;
 	color: white;
 }
@@ -414,9 +418,46 @@ Presentation
 	color: black;
 }
 
-.aperomenu .block-center .inner .choixdesproduits ul {
-	background-color: white;
+.aperomenu .block-center .inner .choixdesproduits .produit_choix {
+	float:left;
+	background-color: hsla(0,100%,100%,0.50);
+	margin: 6%;
+	color: #1C1C1C;
+	text-align: center;
+	width: 20%;
+	height: 40%;
 }
+
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .img_product {
+	height: 60%;
+	align-items: flex-start;	
+}
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .price_product{
+	font-size: 1em;
+}
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .capacity_product{
+	font-size: 0.7em;
+}
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .name_product{
+	font-size: 0.9em;
+	align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
