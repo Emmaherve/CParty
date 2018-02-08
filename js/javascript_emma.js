@@ -49,16 +49,16 @@ $(function(){
  });
 	
 	$("#cercle_perso").click(function(){
-		$("#imgForme").attr('src','images/cercle.png').css('width','50px');	
+		$("#imgForme").attr('src','images/cercle.png').css('width','50px').addClass('alignement');	
 		
 	});
 	
 	$("#etoile_perso").click(function(){
-		$("#imgForme").attr('src','images/etoile.png').css('width','50px');
+		$("#imgForme").attr('src','images/etoile.png').css('width','50px').addClass('alignement');
 	});
 	
 	$("#triangle_perso").click(function(){
-		$("#imgForme").attr('src','images/triangle.png').css('width','50px').addClass('forme');
+		$("#imgForme").attr('src','images/triangle.png').css('width','50px').addClass('forme').addClass('alignement');
 	});
 
 });
