@@ -49,7 +49,7 @@
 		<ul>
 			<li>Retrouvez nous sur les réseaux</li>
 			<li><a href="#"><img src="images/facebook.png"></a></li>
-			<li><a href="#"><img src="images/twitter-icon-circle-logo.png"></a></li>
+			<li><a href="https://twitter.com/CParty_society"><img src="images/twitter-icon-circle-logo.png"></a></li>
 			<li><a href="#"><img src="images/instagram.png"></a></li>
 			<li><a href="#"><img src="images/Pinterest.png"></a></li>
 			<li><a href="#"><img src="images/google+.png"></a></li>
