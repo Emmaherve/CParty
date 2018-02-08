@@ -38,8 +38,10 @@
 	</div>
 	<div class="connexion"> 
 	  <ul>
-		<li><a href="connexion.php"><img src="images/user_blanc.png"></a></li>
-		<li><a href="connexion.php">Connexion</a></li>	
+	
+           
+		  <li><a href="connexion.php">Connexion</a></li>
+		  <li><a href="deconnexion.php"><img src="images/user_blanc.png"></a></li>	
 	</ul>
 	</div>
 	
@@ -47,7 +49,7 @@
 		<ul>
 			<li>Retrouvez nous sur les réseaux</li>
 			<li><a href="#"><img src="images/facebook.png"></a></li>
-			<li><a href="#"><img src="images/twitter-icon-circle-logo.png"></a></li>
+			<li><a href="https://twitter.com/CParty_society"><img src="images/twitter-icon-circle-logo.png"></a></li>
 			<li><a href="#"><img src="images/instagram.png"></a></li>
 			<li><a href="#"><img src="images/Pinterest.png"></a></li>
 			<li><a href="#"><img src="images/google+.png"></a></li>

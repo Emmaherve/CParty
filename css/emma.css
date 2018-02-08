@@ -57,15 +57,14 @@ body{
 
 .header {
 	background: #505d5b;
-	padding: 0px  0;
 	color: white;
 	font-size: 17px;
 
 }
 .top_header img{
-	width: 35px;
+	width: 30px;
 	float: left;
-	margin: 5px;
+	margin: auto;
 	
 }
 .top_header a {
@@ -83,7 +82,7 @@ body{
 	width: 20px;
 	float: left;
 	padding: 0px;
-	margin:0px 0 10px 10px;
+	margin:0px 0 8px 3px;
 }
 
 
@@ -109,32 +108,33 @@ body{
 
 .top_header .reseaux_top > ul > li{
 	float: left;
-	padding: 0 5px 5px 0px;
+	padding: 0 3px 3px 0px;
 	display: block;
 	
 }
 .top_header .reseaux_top img{
-	margin:-5px 0 10px 10px;; 
+	margin:-5px 0 10px 5px;; 
 }
 
 .top_header .search_top{
-	float: left;
-	margin-left: 70px;
-	width: 20%;
+	display: inline;
+	width: 10%;
 }
 .top_header .search_top > ul > li{
+	position: relative;
 	display: block;
 	float: left;
 	padding:0 5px;
 }
 
 .top_header .search_top .champ{
-	width: 200px;
+	width: 170px;
 	
 }
 .top_header .search_top img{
+	left: 50px;
 	width: 30px;
-	margin:-5px 0 10px 10px;; 
+	margin:-5px 0 10px 3px;; 
 }
 
 
@@ -435,6 +435,23 @@ body{
 	margin: 100px;
 }
 
+/*#img_gobeletPerso {
+	position: absolute;
+}*/
+
+.textePersoPourGoblet img{
+	position: absolute;
+	left: 200px;
+	top: 798px;
+	width: 20%;
+}
+
+#textPersoGob{
+	position: relative;
+	   right: 545px;
+    bottom: 272px;
+	text-align: center;
+}
 
 .contents_perso .contentsPersoGobEtPrix {
 	margin-top: -600px;

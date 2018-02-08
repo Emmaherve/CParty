@@ -1,3 +1,47 @@
+<?php 
+	
+include('connexionBdd.php');
+ 
+//Je choisis le champ login
+$reponse_login = $connexion->query('SELECT * FROM client WHERE emailClient=\''.$_POST['username'].'\' AND mdpClient=\''.$_POST['password'].'\''); // Je choisis de la base de donné login le champ login
+ 
+
+							 
+							 
+while ($donnees = $reponse_login->fetch())
+
+{
+   if($donnees !== false){
+      
+         header("location: index_home.php");
+	   	
+   }else{
+    
+echo"Votre email et/ou votre mot de passe sont incorrects";}}
+	
+$reponse_login->closeCursor(); 
+
+
+
+
+
+
+
+
+/*while ($donnees = $reponse_login->fetch() AND $donees2 = $reponse_password->fetch()) // EDIT : Il n'y a plus d'erreur mais c'est à la ligne 20 maintenant
+{
+    if ($_POST['username'] == $donnees['emailClient'] AND $_POST['password'] == $donees2['mdpClient']) // ERREUR ICI
+    {
+        // La suite de mon code qui y sera après que je n'ai plus d'erreur et pour l'instant c'est :
+        echo "<script type='text/javascript'>document.location.replace('index_home.php');</script>" ;
+    }else{
+		echo"Votre email et/ou votre mot de passe sont incorrects";
+	}
+}*/
+	
+?>
+
+
 <!doctype html>
 <html>
 <head>
@@ -5,30 +49,4 @@
 	<title>Document sans titre</title>
 </head>
 
-<body>
-<?php 
-	
-	
-	session_start();
-$_SESSION["username"]=$_POST["username"];
-$_SESSION["password"]=$_POST["password"];
- 
-/*try {include('connexionBdd.php');}
-catch (Exception $e) {die("L'accès à la base de donnée est impossible.");}*/
- include('connexionBdd.php');
-if (empty($_SESSION["username"]) or empty($_SESSION['password'])) {
-    echo "veuillez saisir un login et un mot de passe";
-}
-else {
-    $connexion = query("SELECT COUNT(*) FROM client WHERE emailClient='".$_SESSION["username"]."' AND mdpClient='".$_SESSION["password"]."'")->fetch();
-    if ($connexion['COUNT(*)'] == 1)
-        header("Location: index_home.php");
-}
-/* echo "<script type='text/javascript'>document.location.replace('index_home.php');</script>";*/
-
-  
-
-	
-?>	
-</body>
 </html>

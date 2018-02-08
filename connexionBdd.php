@@ -10,8 +10,8 @@
 	/* Connexion à la base de donnée */
 $hostname = "localhost";
 $dbname = "cparty";
-$username = "emma";
-$userpass = "Hipz9893";
+$username = "root";
+$userpass = "";
 
 $connexionStr = "mysql:host=$hostname;dbname=$dbname;charset=utf8";
 

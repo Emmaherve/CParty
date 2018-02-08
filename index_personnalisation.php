@@ -70,11 +70,13 @@
 						<option value="Arial">Calibri</option>
 						<option value="Arial">Ubuntu</option>
 					</select>
-					<p><label for="forme" class="forme_perso"> Forme :</label>
+					<label for="forme" class="forme_perso"> Forme :</label>
 						<ul>
 					<li><input type="radio" name="forme" id="cercle_perso"/> <img src="images/cercle.png" alt="cercle" style="width: 40px"></li>
 					<li><input type="radio" name="forme" id="etoile_perso"/><img src="images/etoile.png" alt="etoile" style="width: 40px"></li>
-					<li><input type="radio" name="forme" id="triangle_perso"/><img src="images/triangle.png" alt="triangle" style="width: 40px"></li></p>
+					<li><input type="radio" name="forme" id="triangle_perso"/><img src="images/triangle.png" alt="triangle" style="width: 40px"></li>
+							
+					
 
 						</ul>
 				

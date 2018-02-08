@@ -33,7 +33,7 @@
 			<li> <a href="#" class="active"> Mention légale | </a> </li>
 			<li> <a href="#" class="active"> About | </a> </li>
 			<li> <a href="#" class="active"> Share on </a> </li>
-			<li> <a href="#" class="image"><img src="images/reseaux/twitter-icon-circle-logo.png" alt="twitter"></a> </li>
+			<li> <a href="https://twitter.com/CParty_society" class="image"><img src="images/reseaux/twitter-icon-circle-logo.png" alt="twitter"></a> </li>
 			<li> <a href="#" class="image"><img src="images/reseaux/Pinterest.png" alt="printerest"></a> </li>
 			<li> <a href="#" class="image"><img src="images/reseaux/instagram.png" alt="instagram"></a> </li>
 			<li> <a href="#" class="image"><img src="images/reseaux/google+.png" alt="google"></a> </li>
