@@ -1,3 +1,19 @@
+<?php include "parts/header.php";
+include "pdo.php";
+			
+
+	if(isset ($_GET["id"])){
+		$id = $_GET["id"];
+	} else {
+		header("location: index_aperos.php");
+	}
+
+	$stmt= $connexion->prepare('SELECT * FROM produit WHERE idproduit= :idproduit');
+	$stmt->bindValue(':idproduit', $id, PDO::PARAM_STR);
+	$stmt->execute();
+	$produit = $stmt->fetchObject();
+
+?>
 <!doctype html>
 <html>
 	<head>
@@ -18,21 +34,8 @@
 		
 		<div class="choixproduit">
 		
-			<?php include "parts/header.php" ?>
-			<?php include "pdo.php"; ?>
-			
 			<div class="block-center">
 				<div class="inner">
-					
-					<?php 
-
-
-					$stmt= $connexion->prepare('SELECT * FROM produit WHERE idproduit= :idproduit');
-					$stmt->bindValue(':idproduit', '2', PDO::PARAM_STR);
-					$stmt->execute();
-					$produit = $stmt->fetchObject();
-				
-					?>
 					
 					<div class="arbo"> Home > Produits > Apéro et produit > Pack de bière </div>
 					
@@ -44,7 +47,7 @@
 						<h1 class="moypayment_choice"><div><img src="images/cb.png" alt="moypayement"> </div></h1>
 						<h1 class="quantite_choice">Quantité  - 1 + </h1>
 						<h1 class="price_choice"><div><?php echo $produit -> prixProduit; ?> €</div> </h1>
-						<h1 class="add_choice"><img src="images/panier-vide.png" alt="panier"> Ajouter </h1>
+						<h1 class="add_choice"><img src="images/panier-vide.png" alt="panier"></h1>
 						<div class="infoProduit">
 							<button class="btn btn-primary btn-lg btn-block"><img src="images/61112.png" alt="plus d'infos" class="img_infos">	<h4>Informations</h4>
 							</button>

@@ -21,6 +21,7 @@ li{
 }
 a:link{
 	color: #000000;
+	text-decoration: none;
 }
 
 
@@ -239,7 +240,10 @@ Presentation
 }
 */
 
-.choixproduit .block-center .inner .produit_choix{
+
+
+
+.choixproduit .block-center .inner .choixdesprod .produit_choix{
 	background: hsla(0,0%,1000%,0.85);
 	text-align: center;
 	float: center;
@@ -418,20 +422,37 @@ Presentation
 	color: black;
 }
 
+.choixproduit .block-center .inner .choixdesproduits .choixdesprod {
+	display: flex;
+}
+
 .aperomenu .block-center .inner .choixdesproduits .produit_choix {
-	float:left;
-	background-color: hsla(0,100%,100%,0.50);
+	
+	background-color: hsla(0,100%,100%,0.70);
 	margin: 6%;
-	color: #1C1C1C;
 	text-align: center;
 	width: 20%;
-	height: 40%;
+	height: 20%;
+}
+
+.aperomenu .block-center .inner .choixdesproduits .produit_choix p {
+	margin: 0px 0px 5px;
+	padding: 3px;	
+	
+	color: #1C1C1C;
 }
 
 .aperomenu .block-center .inner .choixdesproduits .produit_choix .img_product {
 	height: 60%;
+	background-color: white;
 	align-items: flex-start;	
 }
+
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .img_product img {
+	width: 200px;
+	height: 200px;
+}
+
 .aperomenu .block-center .inner .choixdesproduits .produit_choix .price_product{
 	font-size: 1em;
 }
