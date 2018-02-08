@@ -63,7 +63,7 @@ BACK
 --------------------------------------------------------*/
 
 body .produitmenu {
-	background-image:url(../images/acceuilprod.jpg);
+	background-image:url(../images/acceuilprod.jpg) no-repeat;
 }
 .produitmenu .block-center .inner {
 	background-color: hsla(0,0%,0%,0.45);	
@@ -178,9 +178,68 @@ Arbo
 }
 
 /*--------------------------------------------------------
-Accroche
+Presentation
 --------------------------------------------------------*/
-.choixproduit .block-center .inner .produit_choix {
+/*
+.choixproduit .block-center .inner ul  {
+	background: hsla(0,0%,1000%,0.85);
+	text-align: center;
+	float: center;
+	max-width: 85%;
+	padding: 10px 20px 45px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+}
+.choixproduit .block-center .inner .image_choice {
+	float: left;
+	width:20%;
+	height:20%;
+}
+.choixproduit .block-center .inner .name_choice{
+	display: flex;
+}
+.choixproduit .block-center .inner .desc_choice {
+	display: flex;
+}
+.choixproduit .block-center .inner .ref_choice {
+	display: flex;
+	
+}
+.choixproduit .block-center .inner .moypayment_choice {
+	display: flex;
+	width: 25%;
+	height: 25%;
+	
+}
+.choixproduit .block-center .inner .quantite_choice {
+	display: flex;	
+	background: #FFFFFF;
+	border: .1rem solid #495957;
+}
+.choixproduit .block-center .inner .price_choice {
+	background: green;
+	padding: 5rem;
+	border: .1rem solid white;
+
+}
+.choixproduit .block-center .inner .add_choice {
+	display: flex;
+	width:10%;
+	height:10%;
+	background: #FFFFFF;
+	border: .1rem solid #495957;
+	
+}
+.choixproduit .block-center .inner .info_choice {
+	display: flex;
+	width: 10%;
+    height: 10%;
+	
+}
+*/
+
+.choixproduit .block-center .inner .produit_choix{
 	background: hsla(0,0%,1000%,0.85);
 	text-align: center;
 	float: center;
@@ -192,20 +251,204 @@ Accroche
 }
 .choixproduit .block-center .inner .produit_choix .image_choice {
 	float: left;
+	width:25%;
+	height:25%;
 }
-.choixproduit .block-center .inner .produit_choix .name_choice {
-	float: left;
+
+.choixproduit .block-center .inner .produit_choix .name_choice{
+	display: flex;
+	margin-left: 5%;
 }
 .choixproduit .block-center .inner .produit_choix .desc_choice {
-	float: left;
+	display: flex;
+	margin-left: 5%;
 }
 .choixproduit .block-center .inner .produit_choix .ref_choice {
-	float: left;
+	display: flex;
+	margin-left: 5%;
 }
+
 .choixproduit .block-center .inner .produit_choix .moypayment_choice {
-	float: left;
+	display: flex; 	
+	width: 20%;
+	height: 20%;
 	
 }
+
+.choixproduit .block-center .inner .produit_choix .quantite_choice {
+	float: left;
+	background: #FFFFFF;
+	 box-shadow: 8px 8px 15px #aaa; 
+	padding: 10px;
+	height: 60px;
+  	width: 230px;
+	margin-left: 5%;
+}
+.choixproduit .block-center .inner .produit_choix .price_choice {
+	float: left;
+	background: #FFFFFF;
+	color: #00aeaa;
+	 box-shadow: 8px 8px 15px #aaa; 
+	padding: 10px;
+	width: 150px;
+    height: 60px;
+	margin-left: 10%;
+
+}
+.choixproduit .block-center .inner .produit_choix .add_choice {
+	float: left;
+	background: #FFFFFF;
+	 box-shadow: 8px 8px 15px #aaa; 
+	width: 50px;
+    height: 50px;
+	margin-left: 12%;
+	
+}
+/*choixproduit .block-center .inner .produit_choix .info_choice {
+	display: flex;
+	width: 30px;
+    height: 30px;
+	margin-top: 15%;
+	background: #FFFFFF;
+	
+}*/
+.infoProduit .btn-block{
+	background-color: white;
+	color: black;
+}
+.infoProduit .btn-block h4{
+	float: left;
+	margin-left: 20px;
+	padding-top: 5px;
+	
+}
+.infoProduit  .img_infos {
+	float: left;
+}
+
+.infoProduit img{
+	width: 40px;
+}
+
+.infosProduit p,h5{
+	padding: 40px 0px 0px 40px;
+}
+.infosProduit h5, p{
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+/*		Réseaux 	 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------
+APEROS CENTER
+-----------------------------------------------------------*/
+
+/*--------------------------------------------------------
+BACK
+--------------------------------------------------------*/
+body .aperomenu {
+	background-image:url(../images/wallpaper_choixapero.png);
+}
+.aperomenu .block-center .inner {
+	background-color: hsla(0,0%,0%,0.45);	
+	width: 90%;
+	float: center;
+	display: block; 
+	height: 90%;
+	color: white;
+}
+/*--------------------------------------------------------
+Arbo
+--------------------------------------------------------*/
+.aperomenu .block-center .inner .arbo {
+	float: left;
+	color: white;
+}
+/*--------------------------------------------------------
+Presentation
+--------------------------------------------------------*/
+.aperomenu .block-center .inner .title  {
+	background: #00aeaa;
+	text-align: center;
+	float: center;
+	max-width: 75%;
+	padding: 45px 25px 45px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;	 
+	border: 2px solid #495957;
+}
+
+.aperomenu .block-center .inner .choixdesproduits {
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	margin-left: auto;
+    margin-right: auto;
+	border-top: 3px solid #f5ebe4;
+	width: 80%;
+}
+
+.aperomenu .block-center .inner .choixdesproduits  .affinee{
+	
+	width: 100%;
+	background: #f5ebe4;
+	text-align: center;
+	float: center;
+	margin-top: 25px;	
+	max-width: 100%;
+	padding: 45px 25px 45px; 
+	border: 2px solid #495957;
+	color: black;
+}
+
+.aperomenu .block-center .inner .choixdesproduits .produit_choix {
+	float:left;
+	background-color: hsla(0,100%,100%,0.50);
+	margin: 6%;
+	color: #1C1C1C;
+	text-align: center;
+	width: 20%;
+	height: 40%;
+}
+
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .img_product {
+	height: 60%;
+	align-items: flex-start;	
+}
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .price_product{
+	font-size: 1em;
+}
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .capacity_product{
+	font-size: 0.7em;
+}
+.aperomenu .block-center .inner .choixdesproduits .produit_choix .name_product{
+	font-size: 0.9em;
+	align-self: flex-end;
+}
+
+
+
+
+
+
+
 
 
 
@@ -334,7 +577,7 @@ HOME menion legale etc
 
 .block-footer .inner ul li:nth-child(7) {
 	width: 2%;
-	margin: 0 10px ;
+	margin: 0 10px ;	
 }
 .block-footer .inner ul li:nth-child(8) {
 	width: 2%;

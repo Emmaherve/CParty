@@ -63,3 +63,29 @@ $(function(){
 
 });
 
+
+
+
+
+
+
+
+
+
+
+// CHOIX PROUITS
+// Informations produits
+$(function(){
+	var flip = 0;
+	$( "button" ).click(function() {
+		$( "#infosProduit" ).slideToggle( flip++ % 2 === 0 );
+		$('#img_infos').attr('src','images/icon-minus-128.png');
+	});	
+	$( "button" ).mouseout(function(){
+		$('#img_infos').attr('src','images/61112.png');
+	});
+
+
+});
+
+

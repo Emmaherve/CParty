@@ -121,7 +121,7 @@
 				</li>
 				<li><a href="index.php">Produits</a>
 					<ul>
-						<li><a href="#">Apéros et boissons</a></li>
+						<li><a href="index_aperos.php" class="apero">Apéros et boissons</a></li>
 						<li><a href="#">Décorations</a></li>
 						<li><a href="#">Accessoires</a></li>
 						<li><a href="#">Tables</a></li>
